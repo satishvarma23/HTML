@@ -1,0 +1,60 @@
+header
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-radius: 20px;
+}
+.items
+{
+    color: antiquewhite;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 70%;
+}
+.items li a
+{
+    color: white;
+    text-decoration: none;
+}
+.items li :hover
+{
+    color: gray;
+}
+body
+{
+    background-color: antiquewhite;
+}
+.name
+{
+    padding: 20px;
+}
+#home
+{
+    display: flex;
+    height: 120%;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+.heading
+{
+    font-size: 50px;
+}
+.subheading
+{
+    font-size: 25px;
+}
+.aboutme
+{
+    text-align: center;
+    height: 60% ;
+}
+img
+{
+    border-radius: 20px;
+}
